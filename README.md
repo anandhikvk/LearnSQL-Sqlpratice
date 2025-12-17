@@ -35,4 +35,11 @@ Questions:
 10.Show all the columns from admissions where the patient was admitted and discharged on the same day.
 ```select * from admissions where admission_date=discharge_date```
 
+11.Show the patient id and the total number of admissions for patient_id 579.          
+```select patient_id,count(patient_id) from admissions where patient_id=579```
 
+12.Based on the cities that our patients live in, show unique cities that are in province_id 'NS'.
+``select distinct city  from patients where province_id='NS'```
+13.Show unique birth years from patients and order them by ascending.
+```select distinct year(birth_date) as birth_year from patients order by birth_year asc```
+14.

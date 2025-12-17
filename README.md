@@ -4,7 +4,7 @@ LearnSQL is a website that helps to solve basic to advanced-level SQL queries. I
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Questions:
 1. Show first name, last name, and gender of patients whose gender is 'M'.
-select first_name, last_name,gender from patients where gender='M'
+'''sqlselect first_name, last_name,gender from patients where gender='M''''
 
 2. Show the first names of patients that start with the letter 'C'.
 select first_name from patients where first_name like 'C%'
